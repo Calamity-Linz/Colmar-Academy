@@ -1,0 +1,39 @@
+.lion-icon {
+    position: relative;
+    left: 24px;
+}
+
+.colmar {
+    color: darkslategray;
+}
+
+.academy {
+    color: lightslategray;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    left: 24px;
+    height: 32px;
+    bottom: 12px;
+}
+
+#nav-bar {
+    height: 64px;
+    position: fixed;
+    width: 98%;
+}
+
+a {
+    position: relative;
+    float: right;
+}
+
+.navlinks-left {
+    margin-right: 16px;
+}
+
+.navlinks-right {
+    margin-right: 24px;
+}
