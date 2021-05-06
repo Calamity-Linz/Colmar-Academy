@@ -1,6 +1,13 @@
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+
 .lion-icon {
     position: relative;
     left: 24px;
+    top: 12px;
 }
 
 .colmar {
@@ -16,18 +23,19 @@
     position: relative;
     left: 24px;
     height: 32px;
-    bottom: 12px;
 }
 
 #nav-bar {
     height: 64px;
     position: fixed;
     width: 98%;
+    background-color: white;
 }
 
 a {
     position: relative;
     float: right;
+    top: 12px;
 }
 
 .navlinks-left {
