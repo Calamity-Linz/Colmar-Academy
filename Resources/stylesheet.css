@@ -30,6 +30,7 @@ html, body{
     position: fixed;
     width: 98%;
     background-color: white;
+    z-index: 9999;
 }
 
 a {
@@ -44,4 +45,23 @@ a {
 
 .navlinks-right {
     margin-right: 24px;
+}
+
+.banner {
+    width: 98%;
+    height: auto;
+    position: relative;
+    background-color: lightslategray;
+    top: 64px;
+}
+
+.banner-img {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    margin: 32px 24px;
+}
+
+h2 {
+    display: inline-block;
 }
