@@ -53,15 +53,36 @@ a {
     position: relative;
     background-color: lightslategray;
     top: 64px;
+    display: flex;
+    align-items: center;
 }
 
 .banner-img {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     width: 60%;
     margin: 32px 24px;
 }
 
+.learn-something {
+    display: flex;
+    height: 100%;
+    width: 35%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
 h2 {
-    display: inline-block;
+    font-size: 3rem;
+}
+
+.button-start {
+    background-color: darkgray;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
