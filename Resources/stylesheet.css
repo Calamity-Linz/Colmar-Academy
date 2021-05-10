@@ -58,7 +58,7 @@ a {
 }
 
 .banner-img {
-    position: relative;
+    position: static;
     display: inline-flex;
     width: 60%;
     margin: 32px 24px;
